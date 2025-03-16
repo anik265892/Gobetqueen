@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Doctor Shipra!</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        h1 {
+            color: #007bff;
+        }
+        .doctor-baby {
+            width: 250px;
+            animation: bounce 2s infinite;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        .reels-screen {
+            width: 300px;
+            height: 500px;
+            border: 10px solid black;
+            border-radius: 30px;
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            margin: 20px auto;
+        }
+        .reels-text {
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            animation: fadeInOut 4s infinite;
+            text-align: center;
+        }
+        @keyframes fadeInOut {
+            0%, 100% { opacity: 0; }
+            50% { opacity: 1; }
+        }
+        .heartbeat {
+            font-size: 20px;
+            color: red;
+            animation: heartbeat 1s infinite;
+        }
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>👩‍⚕️ Happy Birthday, Doctor Shipra! 🎂</h1>
+        <p class="heartbeat">❤️ Beep... Beep... Heartbeat Detected... Happy Birthday! ❤️</p>
+        
+        <!-- Baby Doctor Image -->
+        <img class="doctor-baby" src="https://source.unsplash.com/250x250/?baby,doctor" alt="Baby Doctor">
+        
+        <!-- Reels Screen -->
+        <div class="reels-screen">
+            <div class="reels-text">🎉 Happy Birthday, Shipra! 🎂💖<br>#DoctorLife #KeepSmiling</div>
+        </div>
+
+        <p>From: Salauddin Anik 🚀</p>
+    </div>
+
+</body>
+</html>
